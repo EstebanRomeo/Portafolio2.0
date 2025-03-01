@@ -1,23 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
+import Principio from './Componentes/Principo/Principio';
+import Acerca from './Componentes/Acerca/Acerca';
+import Servicios from './Componentes/Servicios/Servicios';
+import ScrollVelocity from './Componentes/ScrollVelocity';
+import Cursos from './Componentes/Cursos/Cursos';
+
+import Proyectos from './Componentes/Proyectos/Proyectos';
+import Final from './Componentes/Final/Final';
+
+
+
+
+const velocity = 100; // Define el valor aquí
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Principio />
+      <section>
+      <Acerca />
+      </section>
+      <ScrollVelocity
+        texts={['Creatividad', 'Soluciones']} 
+        velocity={velocity} 
+        className="custom-scroll-text"
+      />
+      <Servicios />
+      <Cursos />
+      <section id='proyectos'>
+
+      <Proyectos />
+      </section>
+      <Final />
     </div>
   );
 }

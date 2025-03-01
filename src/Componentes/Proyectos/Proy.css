@@ -1,0 +1,140 @@
+.containerProyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .proyectos h3 {
+    font-size: 30px;
+    margin-bottom: -22px;
+    font-variation-settings: "wght" 400;
+  }
+  
+  .titleProy {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-left: 34%;
+  }
+  
+  .titleProy h2 {
+    font-size: 45px;
+  }
+  
+  .bullshoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .infoBull {
+    width: 500px;
+    text-align: justify;
+    margin-right: 100px;
+  }
+  
+  .barberia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .infoBarber {
+    width: 500px;
+    text-align: justify;
+    margin-left: 100px;
+  }
+  
+  .dosbanderas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .infoDosBan {
+    width: 500px;
+    text-align: justify;
+    margin-right: 100px;
+  }
+  
+  .gtask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .infoGT {
+    width: 500px;
+    text-align: justify;
+    margin-left: 100px;
+  }
+  
+  .imgBull1 {
+    width: 300px;
+    border-radius: 16px;
+  }
+  
+  .imgBull1:hover {
+    flex: 2;
+    width: 600px;
+  }
+  
+  .imgBar {
+    width: 400px;
+  }
+  
+  .imgDos {
+    width: 400px;
+  }
+  
+  .imgGt {
+    width: 400px;
+  }
+  
+  /* Responsive para Proyectos */
+  @media screen and (max-width: 768px) {
+    .titleProy {
+      margin-left: 0;
+      justify-content: center;
+    }
+    .titleProy h2 {
+      font-size: 35px;
+    }
+    .bullshoes,
+    .barberia,
+    .dosbanderas,
+    .gtask {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .infoBull,
+    .infoBarber,
+    .infoDosBan,
+    .infoGT {
+      width: 90%;
+      margin: 0;
+      text-align: center;
+    }
+    .imgBull1,
+    .imgBar,
+    .imgDos,
+    .imgGt {
+      width: 90%;
+    }
+  }
+  

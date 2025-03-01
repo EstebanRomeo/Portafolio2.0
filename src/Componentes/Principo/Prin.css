@@ -1,0 +1,56 @@
+.containerPrincipio {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+  }
+  
+  .containerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    height: 700px;
+  }
+  
+  .text0 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: -70px;
+  }
+  
+  .text1 {
+    font-size: 68px;
+    font-weight: bold;
+    color: #fff;
+    font-variation-settings: "wght" 500;
+  }
+  
+  .text2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -70px;
+    font-variation-settings: "wght" 100;
+  }
+  
+  /* Responsive para Principio */
+  @media screen and (max-width: 768px) {
+    .containerInfo {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+    .text0 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .text1 {
+      font-size: 40px;
+    }
+    .text2 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+  

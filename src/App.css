@@ -1,5 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
   text-align: center;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wght" 300;
 }
 
 .App-logo {
@@ -34,5 +42,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Ajustes responsive generales */
+@media screen and (max-width: 768px) {
+  .App {
+    gap: 50px;
   }
 }
