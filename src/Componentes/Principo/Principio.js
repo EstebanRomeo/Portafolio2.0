@@ -1,6 +1,6 @@
 import React from 'react'
 import BlurText from "./BlurText";
-import io from "./io.png"
+import io from "../Img/yo.png"
 import "./Prin.css"
 import FlowingMenu from '../FlowingMenu/FlowingMenu'
 

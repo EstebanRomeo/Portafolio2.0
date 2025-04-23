@@ -33,6 +33,10 @@
     margin-top: -70px;
     font-variation-settings: "wght" 100;
   }
+
+.imgP{
+  width: 465px;
+}
   
   /* Responsive para Principio */
   @media screen and (max-width: 768px) {
