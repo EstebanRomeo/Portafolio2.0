@@ -65,6 +65,7 @@
 /* Responsive para Cursos */
 @media screen and (max-width: 768px) {
   .containerCursos {
+    width: 90%;
     height: auto;
     padding: 20px;
   }

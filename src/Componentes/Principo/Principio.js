@@ -6,9 +6,9 @@ import FlowingMenu from '../FlowingMenu/FlowingMenu'
 
 
 const demoItems = [
-  { link: '#acerca', text: 'Acerca de Mí', image: 'https://picsum.photos/600/400?random=1' },
+  { link: '#containerAcerca', text: 'Acerca de Mí', image: 'https://picsum.photos/600/400?random=1' },
   { link: '#servicios', text: 'Servicios', image: 'https://teclab.edu.ar/wp-content/uploads/2024/01/donde-se-estudia-programacion-en-argentina.webp' },
-  { link: '#cursos', text: 'Cursos & carreras', image: 'https://www.fundaciontelefonica.com.ar/wp-content/uploads/2022/09/cursos_conecta_empleo_formacion_gratis_2560x950.jpg' },
+  { link: '#containerCursos', text: 'Cursos & carreras', image: 'https://www.fundaciontelefonica.com.ar/wp-content/uploads/2022/09/cursos_conecta_empleo_formacion_gratis_2560x950.jpg' },
   { link: '#proyectos', text: 'Proyectos', image: 'https://resizer.iproimg.com/unsafe/1280x/filters:format(webp):quality(85)/https://assets.iprofesional.com/assets/jpg/2025/02/591340.jpg' }
 ];
 

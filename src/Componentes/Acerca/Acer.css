@@ -26,7 +26,7 @@
       flex-direction: column;
       height: auto;
       gap: 20px;
-      padding: 20px;
+      padding: 0px;
     }
     .titleAcerca h2 {
       font-size: 35px;

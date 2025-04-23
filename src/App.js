@@ -12,7 +12,7 @@ import Final from './Componentes/Final/Final';
 
 
 
-const velocity = 100; // Define el valor aquí
+const velocity = 100;
 
 
 function App() {
