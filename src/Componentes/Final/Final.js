@@ -1,6 +1,7 @@
 import React from 'react'
 import DecryptedText from './DecryptedText'
 import "./Fin.css"
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 const Final = () => {
   return (
@@ -15,26 +16,11 @@ const Final = () => {
             <DecryptedText text="hablame" />
         </div>
         <div className='formularioo'>
-
-<div class="card1">
-  <span class="title">Contacto</span>
-  <form class="form">
-    <div class="group">
-    <input placeholder="‎" type="text" required=""></input>
-    <label for="name">Nombre</label>
-    </div>
-<div class="group">
-    <input placeholder="‎" type="email" id="email" name="email" required=""></input>
-    <label for="email">Email</label>
-    </div>
-<div class="group">
-    <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
-    <label for="comment">Mensaje</label>
-</div>
-    <button type="submit">Enviar</button>
-  </form>
-</div>
-
+          <div className="contacto-datos">
+            
+    <p><FaEnvelope style={{ marginRight: '8px' }} color="white" /><a href="mailto:estebannicolasromeo@gmail.com">estebannicolasromeo@gmail.com</a></p>
+    <p><FaPhoneAlt style={{ marginRight: '8px' }} color="white"/><a href="tel:+5491123456789">+54 9 3584906829</a></p>
+  </div>
         </div>
     </div>
   )

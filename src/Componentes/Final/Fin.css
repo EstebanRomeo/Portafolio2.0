@@ -126,3 +126,31 @@
     width: 90%;
   }
 }
+.contacto-container {
+  text-align: center;
+  color: white;
+  background-color: #111;
+  padding: 3rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contacto-text {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.contacto-datos p {
+  margin: 0.5rem 0;
+  font-size: 2.1rem;
+}
+
+.contacto-datos a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contacto-datos a:hover {
+  text-decoration: underline;
+}

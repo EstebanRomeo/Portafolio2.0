@@ -19,21 +19,24 @@ function App() {
   return (
     <div className="App">
       <Principio />
-      <section>
-      <Acerca />
+      <section id='containerAcerca'>
+        <Acerca />
       </section>
       <ScrollVelocity
         texts={['Creatividad', 'Soluciones']} 
         velocity={velocity} 
         className="custom-scroll-text"
       />
-      <Servicios />
-      <Cursos />
-      <section id='proyectos'>
-
-      <Proyectos />
+      <section id='servicios'>
+        <Servicios />
       </section>
-      <Final />
+      <section id='containerCursos'>
+        <Cursos />  
+      </section>
+      <section id='proyectos'>
+        <Proyectos />
+      </section>
+        <Final />
     </div>
   );
 }

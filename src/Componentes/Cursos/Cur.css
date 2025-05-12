@@ -31,7 +31,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 100px;
+  height: 150px;
   width: 250px;
   border-radius: 10px;
   color: #fff;
@@ -46,9 +46,12 @@
 }
 
 .cards .card p.second-text {
+  margin-top: -10px;
   font-size: 0.7em;
 }
-
+.imgCur2{
+  width: 40px;
+}
 .cards .card:hover {
   transform: scale(1.1);
 }
@@ -88,3 +91,8 @@
     width: 80px;
   }
 }
+
+
+
+
+
