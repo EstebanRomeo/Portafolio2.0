@@ -52,8 +52,9 @@
 .imgCur2{
   width: 40px;
 }
-.cards .card:hover {
+.card:hover {
   transform: scale(1.1);
+  z-index: 10;
 }
 
 .cards:hover > .card:not(:hover) {
@@ -65,7 +66,7 @@
   width: 100px;
 }
 
-/* Responsive para Cursos */
+
 @media screen and (max-width: 768px) {
   .containerCursos {
     width: 90%;
