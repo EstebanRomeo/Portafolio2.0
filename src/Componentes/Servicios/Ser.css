@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 800px;
+    height: 900px;
   }
   
   .containerTitleServ {
@@ -43,10 +43,11 @@
   
   .servicios ul,
   .servicios li {
-    margin-top: 40px;
+    text-align: left;
+    margin-top: 10px;
   }
-  
-  /* Responsive para Servicios */
+
+
   @media screen and (max-width: 768px) {
     .containerServicios {
       width: 90%;
@@ -90,7 +91,7 @@
   flex-direction: column;
   align-items: center ;
   width: 220px;
-  height: 500px;
+  height: 800px;
   border: 4px solid #000;
   background-color: #fff;
   padding: 2.5rem;
